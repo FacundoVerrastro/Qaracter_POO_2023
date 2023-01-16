@@ -1,0 +1,8 @@
+1)
+public int esMenor(int primerNumero, int segundoNumero, int tercerNumero){
+	int menor = primerNumero;
+	menor = segundoNumero < menor ? segundoNumero | menor;
+	menor = tercerNumero < menor ? tercerNumero | menor; 
+	Return menor;
+}
+
